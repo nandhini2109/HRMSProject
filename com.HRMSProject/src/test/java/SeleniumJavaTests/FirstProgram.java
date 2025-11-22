@@ -16,6 +16,8 @@ public class FirstProgram {
 		String title=driver.getTitle();
 		System.out.println("Title of the webpage:"+title);
 		System.out.println("welcom to Github");
+		System.out.println("Welcome to Git");
+		System.out.println("multiple statements added");
 
 			
 		
