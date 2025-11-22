@@ -3,6 +3,8 @@ package SeleniumJavaTests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 
 public class FirstProgram {
 	void loginTest()
@@ -13,6 +15,8 @@ public class FirstProgram {
 	//	Get the title
 		String title=driver.getTitle();
 		System.out.println("Title of the webpage:"+title);
+		System.out.println("welcom to Github");
+
 			
 		
 		
