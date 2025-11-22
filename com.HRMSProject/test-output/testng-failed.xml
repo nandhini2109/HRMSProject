@@ -1,0 +1,14 @@
+
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="TestNgpack.NewTest2">
+        <methods>
+        <include name ="verifyTitleOfWebpage"/>
+     
+        
+        </methods>
+      </class> <!-- TestNgpack.NewTest2 -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
